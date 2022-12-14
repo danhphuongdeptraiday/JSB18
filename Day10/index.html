@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .navigation_bar {
+        background-color: antiquewhite;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 90px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .navigation_bar ul li {
+        display: inline;
+        list-style: none;
+        padding: 30px 40px;
+      }
+
+      .navigation_bar ul li:hover {
+        background-color: aliceblue;
+        cursor: pointer;
+      }
+
+      .navigation_bar ul {
+        display: flex;
+        justify-content: space-between;
+      }
+      span {
+        margin-top: 100px;
+        display: inline-block;
+      }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/b25957ae4f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navigation_bar">
+      <span class="logo">Logo</span>
+      <ul>
+        <li><a href="">Menu</a></li>
+        <a href="product.html"><li>Product</li></a>
+        <li>About</li>
+        <li>Order</li>
+        <li>Login</li>
+      </ul>
+    </nav>
+    <span class="icon_shop">Icon<i class="fa-solid fa-cart-shopping"></i></span>
+  </body>
+</html>

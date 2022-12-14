@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 420px;
+}
+
+.heading {
+    padding: 10px 10px;
+    background-color: rgb(59, 75, 197);
+}
+
+.title, .plus {
+    color: white;
+}
+
+.title {
+    display: inline-block;
+    margin-right: 190px;
+}
+
+.plus {
+    display: inline-block;
+}
+
+button {
+    padding: 12px 10px;
+    width: 100%;
+    display: block;
+}

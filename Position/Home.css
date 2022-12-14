@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: rgb(214, 147, 214);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+header h3 {
+    font-family: 'Ms Madi', cursive;
+}
+
+ul li {
+    display: inline-block;
+    padding: 25px 25px;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+ul li:hover {
+    cursor: pointer;
+    background-color: rgb(241, 198, 145);
+}
+
+/* main_body */
+
+.main_body {
+    padding: 30px 30px;
+}
+
+.cover_page {
+    height: 500px;
+    background-color: rgb(225, 206, 243);
+    position: relative;
+}
+
+.personal_content {
+    left: 50px;
+    top: 35%;
+    position: absolute;
+    width: 500px;
+}
+
+.personal_content h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.personal_content button {
+    margin-top: 20px;
+    margin-left: 50%;
+    padding: 10px 20px;
+    background-color: rgb(116, 116, 211);
+}
+
+.personal_content button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.personal_img {
+    position: absolute;
+    left: 60%;
+    top: -30%;
+}

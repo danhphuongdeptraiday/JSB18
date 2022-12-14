@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      form {
+        background-color: antiquewhite;
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding-top: 100px;
+      }
+
+      #account,
+      #password {
+        width: 80%;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+
+      #btn {
+        width: 80%;
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" id="login_form">
+      <input placeholder="account" type="text" name="" id="account" />
+      <br />
+      <input placeholder="password" type="text" name="" id="password" />
+      <br />
+      <button id="btn">Login</button>
+    </form>
+
+    <script src="app.js"></script>
+  </body>
+</html>
